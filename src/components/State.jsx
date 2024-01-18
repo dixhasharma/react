@@ -10,7 +10,7 @@ export default class state extends Component {
     const = "dixha"
     function() {
 
-        //   render() {
+    //   render() {
         return (
             <h1>
                 my name is {this.state.name}

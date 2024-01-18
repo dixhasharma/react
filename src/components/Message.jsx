@@ -17,6 +17,7 @@ const Message = () => {
       </form>
     </div>
   )
+
 }
 
 export default Message
