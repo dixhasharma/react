@@ -8,9 +8,10 @@
 // import MyForm from "./components/MyForm";
 // import Read from "./components/Read";
 // import UpState from "./components/UpState";
-import Form from "./components/Form";
+// import Form from "./components/Form";
 // import SetSimpleExample from "./components/SetSimpleExample";
-
+// import Counter1 from "./components/Counter1";
+import Pixabay from "./components/pixabay";
 // import Initializing from "./components/initializing";
 
 function App() {
@@ -25,7 +26,9 @@ function App() {
   // <Marks/>
   // <MyForm/>
   // <SetSimpleExample/>
-  <Form/>
+  // <Form/>
+  // <Counter1/>
+  <Pixabay/>
   )
 
 }
