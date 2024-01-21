@@ -8,13 +8,19 @@ function Counter1() {
     setCalculation(() => count * 2);
   }, [count]); // <- add the count variable here
 
+ 
   return (
     <>
       <p>Count: {count}</p>
       <button onClick={() => setCount((c) => c + 1)}>Click:- "+"</button>
       <p>Calculation: {calculation}</p>
     </>
+
   );
 }
+
+
+
+
 
 export default Counter1; // <- Correct the export statement to export the Counter component

@@ -10,10 +10,14 @@
 // import UpState from "./components/UpState";
 // import Form from "./components/Form";
 // import SetSimpleExample from "./components/SetSimpleExample";
-// import Counter1 from "./components/Counter1";
-import Pixabay from "./components/pixabay";
+import Counter1 from "./components/Counter1";
+import Localstorage from "./components/Localstorage";
+// import { BrowserRouter, Router, Routes } from "react-router-dom";
+// import Pixabay from "./components/pixabay";
+// import About from "./components/Home/About";
+// import Route1 from "./components/Route1";
 // import Initializing from "./components/initializing";
-
+// import About from "./components/Home/About";
 function App() {
   return(
   // <Event/>
@@ -28,7 +32,20 @@ function App() {
   // <SetSimpleExample/>
   // <Form/>
   // <Counter1/>
-  <Pixabay/>
+  <localStorage/>
+//  <Pixabay/>
+/* <Route1/> */
+/* <About/> */
+/* <BrowserRouter/>
+<Routers>
+  <Router>
+    <Router>
+
+    </Router>
+ <Routes/> 
+</Router> */
+/* <Home/> */
+/* <About/> */
   )
 
 }
